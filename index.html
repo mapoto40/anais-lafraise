@@ -14,8 +14,7 @@
     <meta property="og:description"
         content="Accompagnement psychomoteur et émotionnel à Hollain pour enfants, adolescents et adultes." />
     <meta property="og:type" content="website" />
-    <meta property="og:image"
-        content="./images/logo-anais-lafraise-psychomotricienne.png" />
+    <meta property="og:image" content="./images/logo-anais-lafraise-psychomotricienne.png" />
     <meta property="og:locale" content="fr_BE" />
     <meta property="og:url" content="https://www.anais-lafraise.be/" />
     <meta name="geo.region" content="BE-WHT" />
@@ -72,6 +71,7 @@
         }
 
         .scroll-arrow {
+            padding: 10px;
             position: absolute;
             bottom: 30px;
             left: 50%;
@@ -100,6 +100,15 @@
                 transform: translate(-50%, -5px);
             }
         }
+
+        .hexagon {
+            clip-path: polygon(25% 5%, 75% 5%,
+                    100% 50%,
+                    75% 95%, 25% 95%,
+                    0% 50%);
+            border: 4px solid #F7EEEE;
+            border-radius: 0.75rem;
+        }
     </style>
 </head>
 
@@ -109,12 +118,12 @@
     <header
         class="relative h-[100dvh] text-center py-24 bg-gradient-to-b from-[#f6e7e9]/80 to-[#f7f9f6]/90 overflow-hidden flex flex-col justify-center px-6">
         <div class="absolute inset-0">
-            <img src="./images/hero-therapy.jpg" alt="Fond mains apaisantes"
-                class="w-full h-full object-cover opacity-15" />
+            <img src="./images/hero-therapy.jpg"
+                alt="Fond mains apaisantes" class="w-full h-full object-cover opacity-15" />
         </div>
         <div class="relative z-10">
-            <img src="./images/logo-anais-lafraise-psychomotricienne.png" alt="Logo Anaïs Lafraise Psychomotricienne"
-                class="mx-auto w-32 h-32 mb-6 fade-in" />
+            <img src="./images/logo noir_1.png" alt="Logo Anaïs Lafraise Psychomotricienne"
+                class="mx-auto w-32 mb-6 fade-in" />
             <h1 class="text-5xl font-bold text-[#3D3129] fade-in">Anaïs Lafraise</h1>
             <p class="text-xl mt-3 text-[#4b4b4b] fade-in">Psychomotricienne à Hollain (Belgique)</p>
             <p class="max-w-2xl mx-auto mt-6 text-[#555] fade-in">
@@ -141,28 +150,33 @@
     <!-- A PROPOS -->
     <section id="about" class="py-20 px-6 bg-[#FAF8F5] h-[100dvh] flex items-center relative">
         <div class="max-w-5xl mx-auto text-center">
+            <div
+                class="w-[250px] h-[250px] mx-auto mb-8 overflow-hidden border-4 border-[#F7EEEE] [clip-path:polygon(30%_0%,70%_0%,100%_30%,100%_70%,70%_100%,30%_100%,0%_70%,0%_30%)]">
+                <img src="./images/anais-lafraise.jpg" alt="" class="w-full h-full object-cover">
+            </div>
             <h2 class="text-2xl sm:text-4xl font-bold text-[#3D3129] mb-8">À propos</h2>
             <p class="text-sm sm:text-lg text-[#555] max-w-3xl mx-auto">
-                Je suis <strong>Anaïs Lafraise</strong>, psychomotricienne diplômée, passionnée par l'accompagnement
-                global de la personne.
-                Mon objectif est d'aider chacun à mieux comprendre son corps, à gérer ses émotions et à retrouver une
-                harmonie intérieure.
+                Je suis <strong>Anaïs Lafraise</strong>, psychomotricienne diplômée.
+                Mon objectif est d'aider chacun à mieux comprendre son corps, à gérer ses émotions et à retrouver un bien-être psychique et corporel.
             </p>
             <div class="grid md:grid-cols-3 gap-4 sm:gap-8 mt-14">
                 <div class="p-6 sm:p-8 border rounded-2xl bg-[#fff] shadow-sm">
                     <h3 class="text-lg font-semibold text-[#3D3129] mb-3">Bienveillance</h3>
-                    <p class="text-[#A17C7F] text-sm">Une écoute attentive, sans jugement, dans un cadre apaisant et respectueux
+                    <p class="text-[#A17C7F] text-sm">Une écoute attentive, sans jugement, dans un cadre apaisant et
+                        respectueux
                         du
                         rythme de chacun.</p>
                 </div>
                 <div class="p-6 sm:p-8 border rounded-2xl bg-[#fff] shadow-sm">
                     <h3 class="text-lg font-semibold text-[#3D3129] mb-3">Écoute active</h3>
-                    <p class="text-[#A17C7F] text-sm">Chaque accompagnement débute par un dialogue sincère, pour construire
+                    <p class="text-[#A17C7F] text-sm">Chaque accompagnement débute par un dialogue sincère, pour
+                        construire
                         ensemble un suivi personnalisé.</p>
                 </div>
                 <div class="p-6 sm:p-8 border rounded-2xl bg-[#fff] shadow-sm">
                     <h3 class="text-lg font-semibold text-[#3D3129] mb-3">Accompagnement global</h3>
-                    <p class="text-[#A17C7F] text-sm">Prendre en compte le corps, les émotions et la relation afin de restaurer
+                    <p class="text-[#A17C7F] text-sm">Prendre en compte le corps, les émotions et la relation afin de
+                        restaurer
                         équilibre et confiance.</p>
                 </div>
             </div>
@@ -206,7 +220,8 @@
                         <li>Retard de développement psychomoteur</li>
                         <li>Difficultés d'attention et de coordination</li>
                         <li>Troubles du tonus et de la posture</li>
-                        <li>Préparation à la scolarité</li>
+                        <li>Accompagnement autour des émotions</li>
+                        <li>Aide à l'adaptation à l'environnement scolaire (habiletés sociales)</li>
                     </ul>
                 </div>
                 <div class="bg-white border rounded-2xl p-8 shadow-sm">
@@ -223,8 +238,8 @@
                     <ul class="list-disc text-[#555] pl-5 space-y-2">
                         <li>Gestion du stress et des émotions</li>
                         <li>Confiance en soi et image corporelle</li>
-                        <li>Troubles de la concentration</li>
-                        <li>Accompagnement du changement corporel</li>
+                        <li>Attention, stratégies cognitives</li>
+                        <li>Favoriser la détente corporelle et psychique</li>
                     </ul>
                 </div>
                 <div class="bg-white border rounded-2xl p-8 shadow-sm">
@@ -242,6 +257,8 @@
                         <li>Rééducation post-traumatique</li>
                         <li>Harmonisation psychocorporelle</li>
                         <li>Accompagnement du vieillissement</li>
+                        <li>Accompagner le maintien de l'autonomie</li>
+                        <li>Préserver les capacités cognitives</li>
                     </ul>
                 </div>
             </div>
@@ -285,13 +302,13 @@
                 </div>
                 <div class="bg-gradient-to-br from-[#f4d8dc]/75 to-[#f1f7f1]/75 rounded-2xl p-8 shadow-md">
                     <h3 class="text-lg font-semibold text-[#3D3129]">Tarif</h3>
-                    <p class="text-4xl font-bold text-[#3D3129]">50€</p>
+                    <p class="text-4xl font-bold text-[#3D3129]">45€</p>
                     <p class="text-[#555]">consultation individuelle</p>
                 </div>
                 <div class="bg-white border rounded-2xl p-8 shadow-sm">
                     <h3 class="text-lg font-semibold text-[#3D3129]">Bilan sur 5 séances</h3>
-                    <p class="text-3xl font-bold text-[#3D3129]">45 min</p>
-                    <p class="text-[#555]">évaluation complète <br><span class="font-bold">250€</span></p>
+                    <p class="text-3xl font-bold text-[#3D3129]">250€</p>
+                    <p class="text-[#555]">évaluation complète <br><span class="font-bold">45 min par séance</span></p>
                 </div>
             </div>
             <p class="max-w-3xl mx-auto text-[#555]">
